@@ -1,0 +1,94 @@
+﻿body {
+    font: 2ex Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+.item_container {
+    width: 800px;
+    height: 400px;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    border: 1px solid black;
+    background: rgb(234, 224, 211);
+}
+
+#idUserBugBox {
+    width: 200px;
+    display: inline-block;
+    border: 1px solid black;
+    float: left;
+    padding: 0.5ex;
+}
+
+#idVmMBox {
+    width: auto;
+    margin-left: 215px;
+    border: 1px solid black;
+    padding: 2px;
+    overflow: auto;
+}
+.tovar-count {
+    padding-right: 0.5ex;
+    color: rgb(105, 159, 201);
+    font-size: 80%;
+}
+.buy-box {
+    cursor: pointer;
+    color: rgb(47, 78, 198);
+    display: inline-block;
+    float: right;
+    border-bottom: 1px solid #a3abc9;
+}
+.buy-box:hover {
+    font-weight: 700;
+}
+.left-col {
+    width: 300px;
+    float: left;
+    border: 1px;
+    display: inline-block;
+}
+
+.right-col {
+    border: 1px;
+    margin-left:310px;
+    
+}
+.product-box {
+    clear: both;
+    padding-bottom: 1ex;
+    overflow: auto;
+}
+.product-box-item {
+    float: left;
+    padding-right: 1ex;
+}
+.product-box-item span {
+    color: rgb(105, 159, 201);
+    font-size: 90%;
+    font-weight: 700;
+    display: block;
+}
+.right-col div {
+    text-align: center;
+    color: rgb(105, 159, 201);
+}
+.user-sum-box {
+    font-weight: 700;
+    color: black;
+}
+
+#idUserBugBox div {
+    padding-bottom: 1ex;
+}
+.count-box {
+    font-size: 80%;
+    color: rgb(105, 159, 201);
+}
